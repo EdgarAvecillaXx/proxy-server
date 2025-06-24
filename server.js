@@ -17,7 +17,7 @@ const authMiddleware = (req, res, next) => {
 };
 
 // Middleware to handle CORS, JSON parsing, and authentication
-app.use(cors({ origin: 'https://eiqv-test-devcsapp-06022135-5729-eiqv.developer.ocp.oraclecloud.com' }));
+app.use(cors({ origin: 'https://eiqv-test.fa.us6.oraclecloud.com/' }));
 app.use(authMiddleware);
 
 // Proxy configuration
